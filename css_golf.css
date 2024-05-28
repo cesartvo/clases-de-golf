@@ -1,0 +1,83 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Color de fondo */
+}
+
+header {
+    background-color: #343a40; /* Color de fondo del encabezado */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#mensaje {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #d4edda; /* Color de fondo del mensaje de éxito */
+    border: 1px solid #c3e6cb; /* Borde del mensaje de éxito */
+    color: #155724; /* Color de texto del mensaje de éxito */
+    display: none; /* Ocultar el mensaje por defecto */
+}
+
+footer {
+    background-color: #343a40; /* Color de fondo del pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
